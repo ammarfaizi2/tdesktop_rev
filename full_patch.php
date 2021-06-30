@@ -34,7 +34,7 @@ if (!is_readable($origBinFile)) {
 
 /*
  * Run it with:
- *  php -d memory_limit=-1 full_patch.php
+ *  php -d memory_limit=-1 full_patch.php /path/to/Telegram
  *
  * Don't edit the below code, unless you really know what you are doing!
  * Wrong patch may crash your Telegram!
