@@ -61,7 +61,7 @@ BASE64
 );
 $orig = $bin;
 $bin  = str_replace($find, $repl, $bin, $n);
-printf("(%s) Patch hide typing: (str_replace returned: %d)\n",
+printf("(%s) Patch hide typing (str_replace returned: %d)\n",
 	($n == 1 ? "Success" : "Failed"), $n);
 if ($n != 1)
 	$bin = $orig;
@@ -87,7 +87,7 @@ if ($n != 1)
 $find = base64_decode("TIn/6C22+v5MiflIie+LUByLcBjobMH+/w==");
 $repl = str_repeat("\x90", strlen($find));
 $bin  = str_replace($find, $repl, $bin, $n);
-printf("(%s) Patch anti delete message (private): (str_replace returned: %d)\n",
+printf("(%s) Patch anti delete message (private) (str_replace returned: %d)\n",
 	($n == 1 ? "Success" : "Failed"), $n);
 if ($n != 1)
 	$bin = $orig;
