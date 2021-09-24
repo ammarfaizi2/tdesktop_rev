@@ -1,0 +1,40 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Copyright (C) 2021  Ammar Faizi <ammarfaizi2@gmail.com>
+#
+# Telegram Desktop Patch (for version 3.1.0 Linux x86-64)
+# Don't use it on different version!
+#
+
+
+#
+# This config will hide your progress status like
+# typing..., sending photo..., sending file..., etc.
+#
+set $CONFIG_HIDE_PROGRESS=1
+
+
+#
+# When someone deletes a message, but it has been stored
+# in your local machine, the message may not be deleted
+# from your local storage until you restart Telegram.
+#
+set $CONFIG_SKIP_DELETE_MSG=1
+
+
+#
+# Don't notify someone when you read their unread messages.
+#
+set $CONFIG_SKIP_READ_MSG=1
+
+
+#
+# Don't show "online" status.
+#
+# Note:
+# It only works when you read only (don't send something).
+# When you send something out, you will be online for
+# several seconds.
+#
+set $CONFIG_HIDE_ONLINE=1
+
